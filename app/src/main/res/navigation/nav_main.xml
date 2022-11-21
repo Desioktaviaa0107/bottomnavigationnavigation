@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/freFragment">
+
+    <fragment
+        android:id="@+id/freFragment"
+        android:name="com.tugas.bottomnavigation_navigation.freFragment"
+        android:label="fragment_fre"
+        tools:layout="@layout/fragment_fre" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.tugas.bottomnavigation_navigation.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/thindFragment"
+        android:name="com.tugas.bottomnavigation_navigation.ThindFragment"
+        android:label="fragment_thind"
+        tools:layout="@layout/fragment_thind" />
+</navigation>
